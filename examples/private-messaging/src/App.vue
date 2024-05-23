@@ -38,7 +38,7 @@ export default {
       }
     });
   },
-  destroyed() {
+  unmounted() {
     socket.off("connect_error");
   },
 };

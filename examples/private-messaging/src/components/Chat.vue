@@ -118,7 +118,7 @@ export default {
       }
     });
   },
-  destroyed() {
+  unmounted() {
     socket.off("connect");
     socket.off("disconnect");
     socket.off("users");
