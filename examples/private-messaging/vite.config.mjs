@@ -1,6 +1,5 @@
 import { fileURLToPath, URL } from 'node:url'
 
-//import vue from '@vue/compat'
 import createVuePlugin from '@vitejs/plugin-vue'
 import { defineConfig } from 'vite'
 
@@ -18,7 +17,7 @@ export default defineConfig({
     createVuePlugin({
       template: {
         compilerOptions: {
-          compatConfig: { MODE: 2 }
+          compatConfig: { MODE: 3 }
         }
       }
     })
