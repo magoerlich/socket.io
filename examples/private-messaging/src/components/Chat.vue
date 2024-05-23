@@ -20,8 +20,8 @@
 
 <script>
 import socket from "../socket";
-import User from "./User";
-import MessagePanel from "./MessagePanel";
+import User from "./User.vue";
+import MessagePanel from "./MessagePanel.vue";
 
 export default {
   name: "Chat",

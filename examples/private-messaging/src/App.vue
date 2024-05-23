@@ -9,9 +9,9 @@
 </template>
 
 <script>
-import SelectUsername from "./components/SelectUsername";
-import Chat from "./components/Chat";
-import socket from "./socket";
+import SelectUsername from "@/components/SelectUsername.vue";
+import Chat from "@/components/Chat.vue";
+import socket from "@/socket.js";
 
 export default {
   name: "App",
