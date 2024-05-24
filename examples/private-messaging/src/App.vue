@@ -2,7 +2,7 @@
   <div id="app">
     <select-username
       v-if="!usernameAlreadySelected"
-      @input="onUsernameSelection"
+      @usernameSelected="onUsernameSelection"
     />
     <chat v-else />
   </div>

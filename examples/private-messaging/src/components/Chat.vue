@@ -12,7 +12,7 @@
     <message-panel
       v-if="selectedUser"
       :user="selectedUser"
-      @input="onMessage"
+      @messageSend="onMessage"
       class="right-panel"
     />
   </div>

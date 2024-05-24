@@ -22,7 +22,7 @@ export default {
   },
   methods: {
     onSubmit() {
-      this.$emit("input", this.username);
+      this.$emit("usernameSelected", this.username);
     },
   },
 };
