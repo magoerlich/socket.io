@@ -19,9 +19,9 @@
 </template>
 
 <script>
-import socket from "../socket";
-import User from "./User.vue";
-import MessagePanel from "./MessagePanel.vue";
+import socket from "@/socket";
+import User from "@/components/User.vue";
+import MessagePanel from "@/components/MessagePanel.vue";
 
 export default {
   name: "Chat",

@@ -3,11 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vite dev",
+    "serve": "vite",
     "build": "vite build"
   },
   "dependencies": {
-    "core-js": "^3.8.3",
     "socket.io-client": "^4.0.0",
     "vue": "^3.1.0",
     "@vue/compat": "^3.1.0"
@@ -15,23 +14,9 @@
   "devDependencies": {
     "vite": "^5.2.11",
     "@vitejs/plugin-vue": "^5.0.4",
-    "@vue/compiler-sfc": "^3.1.0"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "@babel/eslint-parser"
-    },
-    "rules": {
-      "vue/multi-word-component-names": "off"
-    }
+    "@vue/compiler-sfc": "^3.1.0",
+    "eslint": "^9.3.0",
+    "eslint-plugin-vue": "^9.26.0"
   },
   "browserslist": [
     "> 1%",
